@@ -90,6 +90,60 @@ router.get('/reviews/:menuId', verifyToken, async (req, res) => {
 
   res.json(reviews);
 });
+// Обновление профиля (аллергии)
+router.patch('/profile', verifyToken, async (req: AuthRequest, res) => {
+  const { allergies } = req.body;
+  const user_id = req.user?.id;
+  const db = getDB();
+
+  try {
+    await db.run('UPDATE users SET allergies = ? WHERE id = ?', [allergies, user_id]);
+    res.json({ message: 'Profile updated successfully', allergies });
+  } catch (error) {
+    res.status(500).json({ message: 'Error updating profile' });
+  }
+});
+// --- НОВЫЕ ЭНДПОИНТЫ (Добавить в src/routes/student.ts) ---
+
+// Пополнение баланса (имитация оплаты)
+router.post('/balance', verifyToken, checkRole(['student']), async (req: AuthRequest, res) => {
+  const { amount } = req.body;
+  const user_id = req.user?.id;
+  const db = getDB();
+
+  if (!amount || amount <= 0) {
+    return res.status(400).json({ message: 'Invalid amount' });
+  }
+
+  try {
+    await db.run('UPDATE users SET balance = balance + ? WHERE id = ?', [amount, user_id]);
+    res.json({ message: `Balance topped up by ${amount}` });
+  } catch (error) {
+    res.status(500).json({ message: 'Error updating balance' });
+  }
+});
+
+// Редактирование профиля (изменение аллергий)
+router.patch('/profile', verifyToken, checkRole(['student']), async (req: AuthRequest, res) => {
+  const { allergies } = req.body;
+  const user_id = req.user?.id;
+  const db = getDB();
+
+  try {
+    await db.run('UPDATE users SET allergies = ? WHERE id = ?', [allergies, user_id]);
+    res.json({ message: 'Allergies info updated successfully', allergies });
+  } catch (error) {
+    res.status(500).json({ message: 'Error updating profile' });
+  }
+});
+
+// Получить данные профиля (баланс и аллергии)
+router.get('/profile', verifyToken, checkRole(['student']), async (req: AuthRequest, res) => {
+  const user_id = req.user?.id;
+  const db = getDB();
+  const user = await db.get('SELECT username, role, balance, allergies FROM users WHERE id = ?', [user_id]);
+  res.json(user);
+});
 
 export default router;
 

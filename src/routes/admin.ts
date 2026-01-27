@@ -31,4 +31,22 @@ router.put('/requests/:id/approve', verifyToken, checkRole(['admin']), async (re
   res.json({ message: 'Request approved' });
 });
 
+// --- НОВАЯ ФУНКЦИЯ: ОТЧЕТ О БЛЮДАХ ---
+
+// Детальный отчет: какое блюдо сколько раз купили и сколько оно принесло денег
+router.get('/dishes-report', verifyToken, checkRole(['admin']), async (req, res) => {
+  const db = getDB();
+  const report = await db.all(`
+    SELECT 
+      m.name AS dish_name, 
+      COUNT(o.id) AS quantity_sold, 
+      SUM(m.price) AS total_revenue
+    FROM orders o
+    JOIN menu m ON o.menu_item_id = m.id
+    GROUP BY m.id
+    ORDER BY quantity_sold DESC
+  `);
+  res.json(report);
+});
+
 export default router;
