@@ -1,0 +1,74 @@
+[00:00:00.713] Server  LOG     ✓ Ready in 516ms
+[00:00:32.608] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:32.632] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:01:29.888] Browser LOG     Успешный вход! Токен сохранен.
+[00:01:59.593] Browser LOG     Успешный вход! Токен сохранен.
+[00:02:08.324] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:08.354] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:02:27.068] Browser LOG     Успешный вход! Токен сохранен.
+[00:02:48.362] Browser ERROR   Ошибка загрузки данных повара
+[00:11:45.087] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:45.118] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:12.574] Browser LOG     Успешный вход! Токен сохранен.
+[00:12:39.124] Browser LOG     Успешный вход! Токен сохранен.
+[00:12:58.118] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:12:58.125] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:26.771] Browser LOG     Успешный вход! Токен сохранен.
+[00:14:14.751] Browser ERROR   Ошибка загрузки данных повара
+[00:20:32.841] Server  LOG     ✓ Compiled in 294ms
+[00:21:35.758] Browser ERROR   Ошибка загрузки заказов: {}
+[00:22:49.864] Browser ERROR   Ошибка загрузки заказов: {}
+[00:23:49.039] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:25:37.368] Browser ERROR   Ошибка загрузки заказов: {}
+[00:25:45.187] Server  LOG     ✓ Compiled in 26ms
+[00:27:31.532] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:27:31.680] Browser ERROR   Ошибка загрузки заказов: {}
+[00:34:49.722] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:34:49.758] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:35:19.408] Browser LOG     Успешный вход! Токен сохранен.
+[00:35:37.084] Browser LOG     Успешный вход! Токен сохранен.
+[00:41:19.234] Server  LOG     ✓ Compiled in 29ms
+[00:42:26.415] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:42:26.446] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:42:30.587] Browser LOG     Успешный вход! Токен сохранен.
+[00:42:43.619] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:42:43.659] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:42:49.872] Browser LOG     Успешный вход! Токен сохранен.
+[00:43:28.309] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:46:50.710] Server  LOG     ✓ Compiled in 23ms
+[00:47:55.856] Server  LOG     ✓ Compiled in 40ms
+[00:48:46.216] Server  LOG     ✓ Compiled in 43ms
+[00:48:47.010] Browser ERROR   Ошибка загрузки заказов: {}
+[00:49:51.084] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:50:39.442] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:50:56.269] Browser LOG     Успешный вход! Токен сохранен.
+[00:51:42.537] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:51:58.521] Browser LOG     Успешный вход! Токен сохранен.
+[00:52:15.823] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:52:18.142] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:52:31.671] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:52:32.255] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:52:32.602] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:52:33.169] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:52:33.491] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:54:20.099] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:54:22.236] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:54:23.930] Browser LOG     Успешный вход! Токен сохранен.
+[00:54:33.820] Browser LOG     Успешный вход! Токен сохранен.
+[00:56:56.829] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:57:13.534] Browser LOG     Успешный вход! Токен сохранен.
+[00:57:21.334] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:57:35.812] Browser LOG     Успешный вход! Токен сохранен.
+[00:58:07.378] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:58:21.035] Browser LOG     Успешный вход! Токен сохранен.
+[00:58:21.152] Browser ERROR   uncaughtError: ReferenceError: getUserRole is not defined
+[00:58:52.010] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:59:10.133] Browser LOG     Успешный вход! Токен сохранен.
+[00:59:10.133] Browser ERROR   uncaughtError: ReferenceError: getUserRole is not defined
+[01:00:53.727] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:00:53.756] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:01:12.286] Browser LOG     Успешный вход! Токен сохранен.
+[01:02:50.443] Browser LOG     Успешный вход! Токен сохранен.
+[01:03:08.331] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:03:30.603] Browser LOG     Успешный вход! Токен сохранен.
+[01:03:56.100] Browser LOG     Успешный вход! Токен сохранен.

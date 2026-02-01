@@ -1,0 +1,31 @@
+{
+  "sorted_middleware": [],
+  "middleware": {
+    "/": {
+      "files": [
+        "server/edge/chunks/workspace_canteen-backend_e7da110e._.js",
+        "server/edge/chunks/[root-of-the-server]__2b2f5034._.js",
+        "server/edge/chunks/f5014_next_dist_esm_build_templates_edge-wrapper_74a7bf4a.js"
+      ],
+      "name": "middleware",
+      "page": "/",
+      "matchers": [
+        {
+          "regexp": "^/.*$",
+          "originalSource": "/:path*"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "development",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "THxibsbbVJa9e7p4zy3ARdwhR9nAQ3xsDZkpUpiVuGA=",
+        "__NEXT_PREVIEW_MODE_ID": "02f5e8484612e05faff31e5a75f8b2a7",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "d9a2ca19dc778d584eec58f97cc22e40708f52be4653272bc99bbab684e0eb09",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "7bac9d57aa1f1fd0cda7b73dffd469d0463db1fe9f8296e204657a7222313ce9"
+      }
+    }
+  },
+  "instrumentation": null,
+  "functions": {}
+}
